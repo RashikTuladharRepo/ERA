@@ -175,12 +175,13 @@
 }
 
 .list-item .list-thumb .title {
-    background-color: #9ed034;
+    background-color: #538240;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 600;
     height: 50px;
     text-align: center;
+    display: none;
 }
 
 .list-item .list-thumb .title h4 {
@@ -193,14 +194,14 @@
 }
 
 .list-item .list-content h5 {
-    color: #9ed034;
+    color: #538240;
     font-weight: 600;
     font-size: 14px;
     margin: 15px 0 5px 0;
 }
 
 .list-item .list-content span {
-    color: #e54747;
+    color: #9C3324;
     font-weight: 300;
     text-transform: uppercase;
     margin: 0 0 15px 0;
@@ -208,7 +209,7 @@
 
 .list-item .list-content a.price-btn {
     display: block;
-    background-color: #9ed034;
+    background-color: #538240;
     color: #fff;
     padding: 12px;
     text-align: center;
@@ -219,7 +220,7 @@
 }
 
 .list-item .list-content a.price-btn:hover {
-    background-color: #90be2c;
+    background-color: #538240;
     text-decoration: none;
 }
 
@@ -229,10 +230,11 @@
     margin-top: -20px;
     width: 40px;
     height: 40px;
-    background-color: #9ed034;
+    background-color: #538240;
     color: #fff;
     text-align: center;
     line-height: 40px;
+    visibility: hidden;
 }
 
 .owl-next {
@@ -320,3 +322,54 @@ address a:hover
     padding: 5px;
     margin-top: 5px;
 }
+
+
+
+.modal-content{
+    padding: 30px;
+}
+
+.modal-content h3
+{
+    padding: 0px;
+}
+
+.modal-content p
+{
+    margin-right: 10px;
+}
+
+
+.modal-title
+{
+    font-family: dancingscript;
+    font-size: 35px;
+}
+
+.media-body
+{
+    text-align: justify;
+}
+
+
+@media (max-width: 320px) {
+    .media-left
+    {
+        display: none;
+    }
+}
+
+
+.backtotop{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 40px;
+    color:#FFF;
+    background: #0f3e68;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+

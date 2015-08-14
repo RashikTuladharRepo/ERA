@@ -1,7 +1,7 @@
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title>Erasoft Solution Pvt. Ltd</title>
@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="styles/templatemo_misc.css">
     <!--customs-->
     <link rel="stylesheet" href="styles/customs.css">
-<!--favocon-->
+    <!--favocon-->
     <link rel="icon" href="images/logo.png">
     <!-- Slider CSS-->
-    <link  rel="stylesheet" href="styles/settings.css" media="screen"/>
-    <link  rel="stylesheet" href="styles/style.css" media="screen"/>
+    <link rel="stylesheet" href="styles/settings.css" media="screen"/>
+    <link rel="stylesheet" href="styles/style.css" media="screen"/>
 </head>
-<body>
+<body id="top">
 
+<a href="#top"><i class="fa fa-arrow-circle-up backtotop"></i></a>
 
 <!-- Static Navbar -->
 <nav class="navbar navbar-default navbar-static-top">
@@ -34,17 +35,19 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <p>Erasoft Solution Pvt. Ltd.<br><small>Proceed Towards ICT</small></p>
+                <p>Erasoft Solution Pvt. Ltd.<br>
+                    <small>Proceed Towards ICT</small>
+                </p>
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
-                <li><a href="#"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
-                <li><a href="#"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
-                <li><a href="#"><i class="fa fa fa-users"></i>&nbsp;Our Clients</a></li>
-<!--                <li><a href="#"><i class="fa fa fa-user"></i>&nbsp;Testimonials</a></li>-->
-                <li><a href="#"><i class="fa fa-phone"></i>&nbsp;Contact Us</a></li>
+                <li><a href="#aboutera"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
+                <li><a href="#eraservices"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
+                <li><a href="#eraproducts"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
+                <li><a href="#eraclients"><i class="fa fa fa-users"></i>&nbsp;Our Clients</a></li>
+                <!--                <li><a href="#"><i class="fa fa fa-user"></i>&nbsp;Testimonials</a></li>-->
+                <li><a href="#eracontacts"><i class="fa fa-phone"></i>&nbsp;Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -52,15 +55,15 @@
 <!-- Static Navbar -->
 
 
-
 <!--slider-->
 <div class="container-fluid slider-container">
     <div class="tp-banner-container">
-        <div class="tp-banner" >
-            <ul>	<!-- SLIDE  -->
-                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+        <div class="tp-banner">
+            <ul>    <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                     <!-- MAIN IMAGE -->
-                    <img src="images/slidebg1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="images/slidebg1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
+                         data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -159,7 +162,8 @@
                          data-endspeed="500"
                          data-endeasing="Power4.easeIn"
                          data-captionhidden="on"
-                         style="z-index: 8">Slider Revolution is the highly acclaimed<br/> slide-based displaying solution, thousands of<br/> businesses, theme developers and everyday<br/> people use and love!
+                         style="z-index: 8">Slider Revolution is the highly acclaimed<br/> slide-based displaying
+                        solution, thousands of<br/> businesses, theme developers and everyday<br/> people use and love!
                     </div>
 
                     <!-- LAYER NR. 8 -->
@@ -350,9 +354,10 @@
                     </div>
                 </li>
                 <!-- SLIDE  -->
-                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
                     <!-- MAIN IMAGE -->
-                    <img src="images/darkblurbg.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <img src="images/darkblurbg.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top"
+                         data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 1 -->
@@ -495,12 +500,8 @@
 <!--slider-->
 
 
-
-
-
-
 <!--About Us-->
-<div class="section">
+<div class="section" id="aboutera">
     <div class="container">
         <div class="col-md-12 section-title"><h1 class="text-center erasoft-green">About Erasoft</h1></div>
 
@@ -536,7 +537,7 @@
 
 
 <!--Our Services-->
-<div class="section">
+<div class="section" id="eraservices">
     <div class="container">
         <div class="col-md-12 section-title"><h1 class="text-center erasoft-red">Our Services</h1></div>
 
@@ -554,12 +555,13 @@
                 <div class="service-image"><img src="images/software.png" class="img-responsive"></div>
                 <div class="service-description">
                     <h3 class="text-center dancingscript erasoft-green">Software Services</h3>
+
                     <p class="text-justify">
-                        This is one of the main services dealt by ERASOFT. We are especially involved in converting your
-                        manual business and other type of daily activities into automated system. In this field of
-                        service, we are engaged in providing software solution either
+                        <?php echo substr("This is one of the main services dealt by ERASOFT. We are especially involved in converting your manual business and other type of daily activities into automated system. In this field of
+                        service, we are engaged in providing software solution either..", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".software-services">Read
+                        More</a>
                 </div>
             </div>
 
@@ -567,12 +569,13 @@
                 <div class="service-image"><img src="images/website.png" class="img-responsive"></div>
                 <div class="service-description">
                     <h3 class="text-center dancingscript erasoft-red">Website Services</h3>
+
                     <p class="text-justify">
-                        This is one of the main services dealt by ERASOFT. We are especially involved in converting your
-                        manual business and other type of daily activities into automated system. In this field of
-                        service, we are engaged in providing software solution either
+                        <?php echo substr("It is a realized fact that the online presence of an organization has been very mandatory for each type of organization either government or private organization. The type of required web
+                        page may differ according to the nature of organization", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".website-services">Read
+                        More</a>
                 </div>
             </div>
 
@@ -580,12 +583,12 @@
                 <div class="service-image"><img src="images/hardware.png" class="img-responsive"></div>
                 <div class="service-description">
                     <h3 class="text-center dancingscript erasoft-green">Hardware Services</h3>
+
                     <p class="text-justify">
-                        This is one of the main services dealt by ERASOFT. We are especially involved in converting your
-                        manual business and other type of daily activities into automated system. In this field of
-                        service, we are engaged in providing software solution either
+                        <?php echo substr("Establishing a high cost computer system is not sufficient enough to enhance the proficiency of an organization. Unmanaged and Improperly managed computer hardware system may not.", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".hardware-services">Read
+                        More</a>
                 </div>
             </div>
 
@@ -593,12 +596,12 @@
                 <div class="service-image"><img src="images/networking.png" class="img-responsive"></div>
                 <div class="service-description">
                     <h3 class="text-center  dancingscript erasoft-red">Networking Services</h3>
+
                     <p class="text-justify">
-                        This is one of the main services dealt by ERASOFT. We are especially involved in converting your
-                        manual business and other type of daily activities into automated system. In this field of
-                        service, we are engaged in providing software solution either
+                        <?php echo substr("In general term, network is considered as the collection of different computers which can share the resources. The scope and use of network may not be same in different types of organization. But it is believed that establishing a network reduces the cost of operation and increases the efficiency of an organization.", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".networking-services">Read
+                        More</a>
                 </div>
             </div>
 
@@ -610,8 +613,187 @@
 <!--Our Services-->
 
 
+<!--Services Models-->
+
+<!--networking services-->
+<div class="modal fade networking-services" tabindex="-1" role="dialog" aria-labelledby="Networking Services">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content col-md-12">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Networking Services</h3>
+            </div>
+            <br>
+
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img class="media-object" src="images/networking.png" alt="test">
+                    </a>
+                </div>
+                <div class="media-body">
+                    In general term, network is considered as the collection of different computers which can share the
+                    resources. The scope and use of network may not be same in different types of organization. But it
+                    is believed that establishing a network reduces the cost of operation and increases the efficiency
+                    of an organization. It is the reality that only the well managed and properly configured network
+                    system can give efficiency. Otherwise it may be just an investment without the result. It is also
+                    supposed that the use of network is only to share the files and internet service provided by an ISP.
+                    <br><br>
+                    We are also involved in planning, designing, establishing managing and monitoring the computer
+                    network of different size on different platform. Our team of certified MCSE, RHCE and CCNA is
+                    dedicated to establish a complex network with diverse span of the requirement of the organization
+                    without any compromise of security and performance.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--networking services-->
+
+
+<!--hardware services-->
+<div class="modal fade hardware-services" tabindex="-1" role="dialog" aria-labelledby="Hardware Services">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content col-md-12">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Hardware Services</h3>
+            </div>
+            <br>
+
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img class="media-object" src="images/hardware.png" alt="test">
+                    </a>
+                </div>
+                <div class="media-body">
+                    We are committed to supply computer hardware and other peripherals of different renowned brand.
+                    <br><br>
+                    Establishing a high cost computer system is not sufficient enough to enhance the proficiency of an
+                    organization. Unmanaged and Improperly managed computer hardware system may not produce better
+                    outcome. So, we believe that the entire computer system should be always functional with optimized
+                    capacity, which requires an experienced and qualified team with strong commitment. We are also
+                    engaged in providing full fledged computer hardware maintenance, Annual maintenance services and
+                    other types of services by our qualified and certified hardware team. We provide on call visit
+                    support serve, on call online support service, and stand by on the spot support service as per your
+                    necessity
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--hardware services-->
+
+
+<!--website services-->
+<div class="modal fade website-services" tabindex="-1" role="dialog" aria-labelledby="Website Services">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content col-md-12">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Website Services</h3>
+            </div>
+            <br>
+
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img class="media-object" src="images/website.png" alt="test">
+                    </a>
+                </div>
+                <div class="media-body">
+                    It is a realized fact that the online presence of an organization has been very mandatory for each
+                    type of organization either government or private organization. The type of required web page may
+                    differ according to the nature of organization. ERASOFT is completely dedicated to provide the full
+                    fledged web solution under a single umbrella. We have a professional team to work with different
+                    platform for web solution, which we think, is our great assets to fulfill the aspirations of our
+                    valued clients.<br><br>
+
+                    <ul>
+                        <li>We are ready to design, develop and implement, monitor and update different types of dynamic
+                            and database driven web site.
+                        </li>
+                        <li>We are also engaged in developing web based intranet and extranet portal as per the
+                            requirement of our clients.
+                        </li>
+                        <li>We also provide you with the services of domain registration, providing web space in
+                            different high tech domestic and international server in different platform.
+                        </li>
+                        <li>We also provide you the service of redesign and re-develop your existing web sites to catch
+                            up with the technology and market demand.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--website services-->
+
+
+<!--software services-->
+<div class="modal fade software-services" tabindex="-1" role="dialog" aria-labelledby="Software Services">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content col-md-12">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title">Software Services</h3>
+            </div>
+            <br>
+
+            <div class="media">
+                <div class="media-left media-top">
+                    <a href="#">
+                        <img class="media-object" src="images/software.png" alt="test">
+                    </a>
+                </div>
+                <div class="media-body">
+                    This is one of the main services dealt by ERASOFT. We are especially involved in converting your
+                    manual business and other type of daily activities into automated system. In this field of service,
+                    we are engaged in providing software solution either desktop based, client sever based or web based
+                    for different organization as per their requirement to automate different types of organizational
+                    activities. Our team will carry out all the necessary jobs which are required to build a complete
+                    software system only after understanding your system requirement. We follow a universally followed
+                    software development cycle to complete the projects. As we have the expertise in almost all of the
+                    platform of software development, we are ready and able to work in each of the commonly available
+                    software development. We have a professional way of studying your system needs, designing the system
+                    as per the need, coding the system, testing the system, debugging the system and implementing the
+                    system. We think that developing the perfect software system by the perfect human resource for the
+                    perfect performance is our duty.<br><br>
+
+                    Regardless of the offering, the core principle that drive us are:
+                    <ul>
+                        <li>All products should be highly configurable.</li>
+                        <li>Our Solution are extremely scalable and easy to install.</li>
+                        <li>They are simple to use for people of all backgrounds.</li>
+                        <li>Unlimited data is included in all of our pricing.</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--software services-->
+
+
+<!--Services Models-->
+
+
+
+
+
 <!--carousel-->
-<div class="section">
+<div class="section" id="eraproducts">
     <div class="container">
 
         <div class="col-md-12 section-title"><h1 class="text-center erasoft-green">Our Products?</h1></div>
@@ -630,15 +812,48 @@
                 <div class="list-item">
                     <div class="list-thumb">
                         <div class="title">
-                            <h4>Italy</h4>
+                            <h4>MUMOLAS</h4>
                         </div>
-                        <img src="images/destination_1.jpg" class="img-responsive" alt="destination 1">
+                        <img src="images/mumolas.jpg" class="img-responsive" alt="destination 1">
                     </div>
                     <!-- /.list-thumb -->
                     <div class="list-content">
-                        <h5>Rome, Milan, Naples</h5>
-                        <span>SILVER HOTEL, 4 NIGHTS, 5 STARS</span>
-                        <a href="#" class="price-btn">$1,800 Book Now</a>
+                        <h5>MUMOLAS</h5>
+                        <span>Library Automation Software</span>
+                        <a href="#" class="price-btn">Know More</a>
+                    </div>
+                    <!-- /.list-content -->
+                </div>
+
+                <!-- /.list-item -->
+                <div class="list-item">
+                    <div class="list-thumb">
+                        <div class="title">
+                            <h4>Onver Smart Taxi</h4>
+                        </div>
+                        <img src="images/onver.jpg" class="img-responsive" alt="destination 6">
+                    </div>
+                    <!-- /.list-thumb -->
+                    <div class="list-content">
+                        <h5>Onver Smart Taxi</h5>
+                        <span>Onver Smart Taxi</span>
+                        <a href="#" class="price-btn">Know More</a>
+                    </div>
+                </div>
+
+                <!-- /.list-item -->
+                <div class="list-item">
+                    <div class="list-thumb">
+                        <div class="title">
+                            <h4>Mumolas OPAC</h4>
+                        </div>
+                        <img src="images/projectssize.jpg" class="img-responsive" alt="destination 2">
+                    </div>
+                    <!-- /.list-thumb -->
+                    <div class="list-content">
+                        <h5>Mumolas OPAC</h5>
+                        <span>Mumolas OPAC</span>
+                        <a href="#" class="price-btn">Know More</a>
                     </div>
                     <!-- /.list-content -->
                 </div>
@@ -646,15 +861,15 @@
                 <div class="list-item">
                     <div class="list-thumb">
                         <div class="title">
-                            <h4>France</h4>
+                            <h4>e-Resource Management System</h4>
                         </div>
-                        <img src="images/destination_2.jpg" class="img-responsive" alt="destination 2">
+                        <img src="images/projectssize.jpg" class="img-responsive" alt="destination 3">
                     </div>
                     <!-- /.list-thumb -->
                     <div class="list-content">
-                        <h5>Paris, Marseille, Lyon</h5>
-                        <span>NEW PALACE, 5 NIGHTS, 5 STARS</span>
-                        <a href="#" class="price-btn">$2,300 Book Now</a>
+                        <h5>e-Resource Management System</h5>
+                        <span>e-Resource Management System</span>
+                        <a href="#" class="price-btn">Know More</a>
                     </div>
                     <!-- /.list-content -->
                 </div>
@@ -662,15 +877,15 @@
                 <div class="list-item">
                     <div class="list-thumb">
                         <div class="title">
-                            <h4>Germany</h4>
+                            <h4>Archive Management System</h4>
                         </div>
-                        <img src="images/destination_3.jpg" class="img-responsive" alt="destination 3">
+                        <img src="images/projectssize.jpg" class="img-responsive" alt="destination 4">
                     </div>
                     <!-- /.list-thumb -->
                     <div class="list-content">
-                        <h5>Berlin, Hamburg, Munich</h5>
-                        <span>LUXE HOTEL, 5 NIGHTS, 6 STARS</span>
-                        <a href="#" class="price-btn">$3,100 Book Now</a>
+                        <h5>Archive Management System</h5>
+                        <span>Archive Management System</span>
+                        <a href="#" class="price-btn">Know More</a>
                     </div>
                     <!-- /.list-content -->
                 </div>
@@ -678,15 +893,15 @@
                 <div class="list-item">
                     <div class="list-thumb">
                         <div class="title">
-                            <h4>Spain</h4>
+                            <h4>School Management - Ongoing</h4>
                         </div>
-                        <img src="images/destination_4.jpg" class="img-responsive" alt="destination 4">
+                        <img src="images/projectssize.jpg" class="img-responsive" alt="destination 5">
                     </div>
                     <!-- /.list-thumb -->
                     <div class="list-content">
-                        <h5>Madrid, Bercelona, Valencia</h5>
-                        <span>GOOD HOTEL, 4 NIGHTS, 6 STARS</span>
-                        <a href="#" class="price-btn">$4,800 Book Now</a>
+                        <h5>School Management - Ongoing</h5>
+                        <span>School Management - Ongoing</span>
+                        <a href="#" class="price-btn">Know More</a>
                     </div>
                     <!-- /.list-content -->
                 </div>
@@ -694,31 +909,15 @@
                 <div class="list-item">
                     <div class="list-thumb">
                         <div class="title">
-                            <h4>Netherlands</h4>
+                            <h4>Book Seller - Ongoing</h4>
                         </div>
-                        <img src="images/destination_5.jpg" class="img-responsive" alt="destination 5">
+                        <img src="images/projectssize.jpg" class="img-responsive" alt="destination 6">
                     </div>
                     <!-- /.list-thumb -->
                     <div class="list-content">
-                        <h5>Amsterdam, Delft, The Hague</h5>
-                        <span>BEST HOTEL, 6 NIGHTS, 7 STARS</span>
-                        <a href="#" class="price-btn">$5,600 Book Now</a>
-                    </div>
-                    <!-- /.list-content -->
-                </div>
-                <!-- /.list-item -->
-                <div class="list-item">
-                    <div class="list-thumb">
-                        <div class="title">
-                            <h4>Switzerland</h4>
-                        </div>
-                        <img src="images/destination_6.jpg" class="img-responsive" alt="destination 6">
-                    </div>
-                    <!-- /.list-thumb -->
-                    <div class="list-content">
-                        <h5>Zürich, Geneva, Basel</h5>
-                        <span>NEW HOTEL, 7 NIGHTS, 7 STARS</span>
-                        <a href="#" class="price-btn">$6,300 Book Now</a>
+                        <h5>Book Seller - Ongoing</h5>
+                        <span>Book Seller - Ongoing</span>
+                        <a href="#" class="price-btn">Know More</a>
                     </div>
                 </div>
             </div>
@@ -729,7 +928,7 @@
 
 
 <!--Our Clients-->
-<div class="section">
+<div class="section" id="eraclients">
     <div class="container">
         <div class="col-md-12 section-title"><h1 class="text-center erasoft-red">Our Clients</h1></div>
 
@@ -745,17 +944,6 @@
 
         <div class="row">
             <div class="col-sm-3"><img src="images/microsoft.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/facebook.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/viber.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/apple.jpg" class="img-responsive"></div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-sm-3"><img src="images/microsoft.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/facebook.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/viber.jpg" class="img-responsive"></div>
-            <div class="col-sm-3"><img src="images/apple.jpg" class="img-responsive"></div>
         </div>
     </div>
 </div>
@@ -840,49 +1028,50 @@
 
 
 <!--footer-->
-<div class="section">
+<div class="section" id="eracontacts">
     <div class="container-fluid footer">
-            <div class="row">
-                <div class="col-md-4">
-                    <address class="erasoft-white segeo font16">
-                        <h3>Contact Details</h3>
-                        <span class="font18 bold">Erasoft Solution Pvt. Ltd.</span><br>
-                        <i class="fa fa-building"></i>&nbsp;&nbsp;3rd Floor, Rudrajudha Bhawan, Kantipur Marga-182<br>
-                        <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Subidhanagar, Tinkune, Kathmandu, Nepal<br>
-                        <i class="fa fa-envelope"></i>&nbsp;&nbsp;Email: info@erasoft.com.np<br>
-                        <i class="fa fa-envelope-square"></i>&nbsp;&nbsp;Post Box No: 9742<br>
-                        <i class="fa fa-globe"></i>&nbsp;&nbsp;URL: http://www.erasoft.com.np
-                    </address>
-                </div>
-                <div class="col-md-4">
-                    <address class="erasoft-white segeo font16">
-                        <h3>Our Services</h3>
-                        <i class="fa fa-building"></i>&nbsp;&nbsp;Software Services<br>
-                        <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Website Services<br>
-                        <i class="fa fa-envelope"></i>&nbsp;&nbsp;Hardware Services<br>
-                        <i class="fa fa-envelope-square"></i>&nbsp;&nbsp;Network Services<br>
-                        <i class="fa fa-globe"></i>&nbsp;&nbsp;Training Services<br>
-                        <i class="fa fa-globe"></i>&nbsp;&nbsp;IT Consultancy Services
-                    </address>
-                </div>
-                <div class="col-md-4 text-justify">
-                    <address class="erasoft-white segeo font16">
-                        <h3>Find Us On</h3>
-                        <a><i class="fa fa-facebook-square" style="font-size: 38px;"></i></a>
-                        <a><i class="fa fa-twitter-square" style="font-size: 38px;"></i>   </a>                                                           <a><i class="fa fa-youtube-square" style="font-size: 38px;"></i></a>
-                        <a><i class="fa fa-skype" style="font-size: 38px;"></i></a>
-                    </address>
-                </div>
+        <div class="row">
+            <div class="col-md-4">
+                <address class="erasoft-white segeo font16">
+                    <h3>Contact Details</h3>
+                    <span class="font18 bold">Erasoft Solution Pvt. Ltd.</span><br>
+                    <i class="fa fa-building"></i>&nbsp;&nbsp;3rd Floor, Rudrajudha Bhawan, Kantipur Marga-182<br>
+                    <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Subidhanagar, Tinkune, Kathmandu, Nepal<br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;Email: info@erasoft.com.np<br>
+                    <i class="fa fa-envelope-square"></i>&nbsp;&nbsp;Post Box No: 9742<br>
+                    <i class="fa fa-globe"></i>&nbsp;&nbsp;URL: http://www.erasoft.com.np
+                </address>
             </div>
+            <div class="col-md-4">
+                <address class="erasoft-white segeo font16">
+                    <h3>Our Services</h3>
+                    <i class="fa fa-building"></i>&nbsp;&nbsp;Software Services<br>
+                    <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Website Services<br>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;Hardware Services<br>
+                    <i class="fa fa-envelope-square"></i>&nbsp;&nbsp;Network Services<br>
+                    <i class="fa fa-globe"></i>&nbsp;&nbsp;Training Services<br>
+                    <i class="fa fa-globe"></i>&nbsp;&nbsp;IT Consultancy Services
+                </address>
+            </div>
+            <div class="col-md-4 text-justify">
+                <address class="erasoft-white segeo font16">
+                    <h3>Find Us On</h3>
+                    <a><i class="fa fa-facebook-square" style="font-size: 38px;"></i></a>
+                    <a><i class="fa fa-twitter-square" style="font-size: 38px;"></i> </a> <a><i
+                            class="fa fa-youtube-square" style="font-size: 38px;"></i></a>
+                    <a><i class="fa fa-skype" style="font-size: 38px;"></i></a>
+                </address>
+            </div>
+        </div>
     </div>
 </div>
 
 
-    <div class="container-fluid copyrights">
-        <div class="container text-center">
-            <p class="erasoft-white segeo font16">Erasoft Software Solutions Pvt. Ltd &copy; 2015</p>
-        </div>
+<div class="container-fluid copyrights">
+    <div class="container text-center">
+        <p class="erasoft-white segeo font16">Erasoft Software Solutions Pvt. Ltd &copy; 2015</p>
     </div>
+</div>
 
 <!--footer-->
 
@@ -922,20 +1111,70 @@
 <script type="text/javascript" src="scripts/jquery.themepunch.revolution.min.js"></script>
 <script type="text/javascript">
     var revapi;
-    jQuery(document).ready(function() {
+    jQuery(document).ready(function () {
         revapi = jQuery('.tp-banner').revolution(
             {
-                delay:9000,
-                startwidth:1366,
-                startheight:500,
-                hideThumbs:10,
-                fullWidth:"on",
-                forceFullWidth:"on",
-                onHoverStop:"off",
-                touchenabled :"on",
-                navigationStyle :"round"
+                delay: 9000,
+                startwidth: 1366,
+                startheight: 500,
+                hideThumbs: 10,
+                fullWidth: "on",
+                forceFullWidth: "on",
+                onHoverStop: "off",
+                touchenabled: "on",
+                navigationStyle: "round"
             });
     });
+</script>
+<script>
+
+    $('.backtotop').css("display","none");
+
+    $("nav ul li a[href^='#']").on('click', function (e) {
+        // prevent default anchor click behavior
+        e.preventDefault();
+        // store hash
+        var hash = this.hash;
+        // animate
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1000, function () {
+            // when done, add hash to url
+            // (default click behaviour)
+            window.location.hash = hash;
+        });
+    });
+
+
+    $("a[href^='#']").on('click', function (e) {
+        // prevent default anchor click behavior
+        e.preventDefault();
+        // store hash
+        var hash = this.hash;
+        // animate
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1000, function () {
+            // when done, add hash to url
+            // (default click behaviour)
+            window.location.hash = hash;
+        });
+    });
+
+
+    $(window).on('scroll', function() {
+        var y_scroll_pos = window.pageYOffset;
+        var scroll_pos_test = 100;             // set to whatever you want it to be
+
+        if(y_scroll_pos > scroll_pos_test) {
+            $('.backtotop').fadeIn();
+        }
+        else
+        {
+            $('.backtotop').fadeOut();
+        }
+    });
+
 </script>
 
 </body>
