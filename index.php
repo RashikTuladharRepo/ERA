@@ -1126,6 +1126,11 @@
 <script>
 
     $('.backtotop').css("display","none");
+	
+	$('.nav a').on('click', function(){
+    $(".btn-navbar").click(); //bootstrap 2.x
+    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+});
 
     $("nav ul li a[href^='#']").on('click', function (e) {
         // prevent default anchor click behavior
@@ -1177,23 +1182,6 @@
             var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
             if (imagePos < topOfWindow + 800) {
-                $(this).addClass("animated fadeInUp");
-            }
-        });
-
-        $('#eraservices').each(function () {
-            var imagePos = $(this).offset().top;
-            var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow + 500) {
-                $(this).addClass("animated fadeInUp");
-            }
-        });
-
-
-        $('#eraproducts').each(function () {
-            var imagePos = $(this).offset().top;
-            var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow + 500) {
                 $(this).addClass("animated fadeInUp");
             }
         });
