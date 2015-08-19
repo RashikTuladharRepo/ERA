@@ -10,45 +10,69 @@
 .font16{font-size: 16px;}
 .font14{font-size: 14px;}
 
-
+body
+{
+    background-image: url("../images/products.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 .navbar
 {
-    position: relative;
+    position: fixed;
     min-height: 70px;
     margin-bottom: 0px;
     border: 1px solid transparent;
+    background: #538240;
+    -webkit-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
 }
 
 
 .navbar-brand
 {
+    color:#FFF !important;
     float: left;
     height: 68px;
     padding: 35px;
-    font-size: 18px;
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     width: auto;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #555;
-    height: 70px;
-    line-height: 7px;
+
+@media(max-width : 370px) {
+    .navbar-brand
+    {
+        font-size: 16px;
+    }
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #555;
-    background-color: transparent;
+@media(max-width : 349px) {
+    .navbar-brand
+    {
+        font-size: 13px;
+    }
 }
 
+
+.navbar-default .navbar-nav a
+{
+    color: #FFF !important;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    transition: background-color 1s;
+}
 
 .navbar-default .navbar-nav a:hover
 {
-    background-color: #538240 !important;
     color: #FFF !important;
+    background-color:#9C3324 !important;
 }
 
 .navbar-brand p {
@@ -94,8 +118,14 @@
 
 .section
 {
-    padding-top: 40px;
+    padding-top: 80px;
 }
+
+.slider-container
+{
+    padding-top: 82px;
+}
+
 
 .section-title h1
 {
@@ -150,6 +180,18 @@
 
 
 /*services*/
+
+.service-image
+{
+    width:150px;
+    height: 150px;
+}
+
+.service-description
+{
+    margin-top: -30px;
+}
+
 .service-description btn
 {
     width: 100%;
@@ -209,7 +251,7 @@
 
 .list-item .list-content a.price-btn {
     display: block;
-    background-color: #538240;
+    background-color: #286090;
     color: #fff;
     padding: 12px;
     text-align: center;
@@ -220,7 +262,7 @@
 }
 
 .list-item .list-content a.price-btn:hover {
-    background-color: #538240;
+    background-color: #122b40;
     text-decoration: none;
 }
 
@@ -311,7 +353,6 @@ address a:hover
 
 .copyrights
 {
-    background-color:#9C3324 ;
     height: auto;
 }
 
@@ -321,6 +362,7 @@ address a:hover
     vertical-align: middle;
     padding: 5px;
     margin-top: 5px;
+    color:#9C3324;
 }
 
 
@@ -366,10 +408,24 @@ address a:hover
     bottom: 10px;
     font-size: 40px;
     color:#FFF;
-    background: #0f3e68;
+    background:#538240;
     width: 40px;
     height: 40px;
     border-radius: 40px;
     text-align: center;
+    z-index: 1000;
 }
 
+#aboutera
+{
+    /*background-image: url("../images/about.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.block-line
+{
+    height: 3px;
+    background: #9C3324;
+}

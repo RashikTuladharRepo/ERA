@@ -18,13 +18,15 @@
     <!-- Slider CSS-->
     <link rel="stylesheet" href="styles/settings.css" media="screen"/>
     <link rel="stylesheet" href="styles/style.css" media="screen"/>
+    <!--animations-->
+    <link rel="stylesheet" href="styles/animate.css">
 </head>
 <body id="top">
 
 <a href="#top"><i class="fa fa-arrow-circle-up backtotop"></i></a>
 
 <!-- Static Navbar -->
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -51,6 +53,7 @@
             </ul>
         </div>
     </div>
+    <div class="col-md-12 block-line"></div>
 </nav>
 <!-- Static Navbar -->
 
@@ -503,13 +506,17 @@
 <!--About Us-->
 <div class="section" id="aboutera">
     <div class="container">
-        <div class="col-md-12 section-title"><h1 class="text-center erasoft-green">About Erasoft</h1></div>
-
-        <div class="line-dividers col-md-12">
-            <div class="col-xs-5 horizontal-bar"></div>
-            <div class="col-xs-2 text-center center-icon"><i class="fa fa-home erasoft-green"></i></div>
-            <div class="col-xs-5 horizontal-bar"></div>
+        <div class="col-md-12 section-title">
+            <h1 class="text-left erasoft-green"><i class="fa fa-home"></i>&nbsp;Know About Erasoft
+                <small class="erasoft-red">Who We Are?</small>
+            </h1>
         </div>
+
+<!--        <div class="line-dividers col-md-12">-->
+<!--            <div class="col-xs-5 horizontal-bar"></div>-->
+<!--            <div class="col-xs-2 text-center center-icon"><i class="fa fa-home erasoft-green"></i></div>-->
+<!--            <div class="col-xs-5 horizontal-bar"></div>-->
+<!--        </div>-->
 
         <div class="col-md-12 small-horizontal-bar"></div>
         <div class="clearfix"></div>
@@ -539,12 +546,10 @@
 <!--Our Services-->
 <div class="section" id="eraservices">
     <div class="container">
-        <div class="col-md-12 section-title"><h1 class="text-center erasoft-red">Our Services</h1></div>
-
-        <div class="line-dividers col-md-12">
-            <div class="col-xs-5 horizontal-bar"></div>
-            <div class="col-xs-2 text-center center-icon"><i class="fa fa-thumbs-up erasoft-red"></i></div>
-            <div class="col-xs-5 horizontal-bar"></div>
+        <div class="col-md-12 section-title">
+            <h1 class="text-left erasoft-red"><i class="fa fa-thumbs-up erasoft-red"></i>&nbsp;Our Services
+                <small class="erasoft-green">What We Do?</small>
+            </h1>
         </div>
 
         <div class="col-md-12 small-horizontal-bar"></div>
@@ -796,12 +801,10 @@
 <div class="section" id="eraproducts">
     <div class="container">
 
-        <div class="col-md-12 section-title"><h1 class="text-center erasoft-green">Our Products?</h1></div>
-
-        <div class="line-dividers col-md-12">
-            <div class="col-xs-5 horizontal-bar"></div>
-            <div class="col-xs-2 text-center center-icon"><i class="fa fa-tachometer erasoft-green"></i></div>
-            <div class="col-xs-5 horizontal-bar"></div>
+        <div class="col-md-12 section-title">
+            <h1 class="text-left erasoft-green"><i class="fa fa-tachometer erasoft-green"></i>&nbsp;Our Products?
+                <small class="erasoft-red">What We Developed?</small>
+            </h1>
         </div>
 
         <div class="col-md-12 small-horizontal-bar"></div>
@@ -930,12 +933,10 @@
 <!--Our Clients-->
 <div class="section" id="eraclients">
     <div class="container">
-        <div class="col-md-12 section-title"><h1 class="text-center erasoft-red">Our Clients</h1></div>
-
-        <div class="line-dividers col-md-12">
-            <div class="col-xs-5 horizontal-bar"></div>
-            <div class="col-xs-2 text-center center-icon"><i class="fa fa-users erasoft-red"></i></div>
-            <div class="col-xs-5 horizontal-bar"></div>
+        <div class="col-md-12 section-title">
+            <h1 class="text-left erasoft-red"><i class="fa fa-users erasoft-red"></i>&nbsp;Our Clients
+                <small class="erasoft-green">Who We Have Worked For?</small>
+            </h1>
         </div>
 
         <div class="col-md-12 small-horizontal-bar"></div>
@@ -954,15 +955,11 @@
 <div class="section our-features">
     <div class="container" id="testimonials-row">
         <div class="col-md-12 section-title">
-            <h1 class="text-center erasoft-green">Testimonials
+            <h1 class="text-left erasoft-green"><i class="fa fa-user erasoft-green"></i>&nbsp;Testimonials
                 <small class="erasoft-red">Our Clients Loves Us</small>
             </h1>
         </div>
-        <div class="line-dividers col-md-12">
-            <div class="col-xs-5 horizontal-bar"></div>
-            <div class="col-xs-2 text-center center-icon"><i class="fa fa-user erasoft-green"></i></div>
-            <div class="col-xs-5 horizontal-bar"></div>
-        </div>
+
         <div class="col-md-12 small-horizontal-bar"></div>
         <div class="clearfix"></div>
         <div class="row">
@@ -1028,7 +1025,8 @@
 
 
 <!--footer-->
-<div class="section" id="eracontacts">
+<div class="section" id="eracontacts" style="padding-bottom: 0;">
+    <div class="col-md-12 block-line"></div>
     <div class="container-fluid footer">
         <div class="row">
             <div class="col-md-4">
@@ -1066,10 +1064,9 @@
     </div>
 </div>
 
-
 <div class="container-fluid copyrights">
     <div class="container text-center">
-        <p class="erasoft-white segeo font16">Erasoft Software Solutions Pvt. Ltd &copy; 2015</p>
+        <p class="segeo font16">Erasoft Software Solutions Pvt. Ltd &copy; 2015</p>
     </div>
 </div>
 
@@ -1173,6 +1170,33 @@
         {
             $('.backtotop').fadeOut();
         }
+    });
+
+    $(window).on('scroll', function() {
+        $('#aboutera').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 800) {
+                $(this).addClass("animated fadeInUp");
+            }
+        });
+
+        $('#eraservices').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 500) {
+                $(this).addClass("animated fadeInUp");
+            }
+        });
+
+
+        $('#eraproducts').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 500) {
+                $(this).addClass("animated fadeInUp");
+            }
+        });
     });
 
 </script>
