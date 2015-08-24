@@ -20,10 +20,6 @@
     <link rel="stylesheet" href="styles/style.css" media="screen"/>
     <!--animations-->
     <link rel="stylesheet" href="styles/animate.css">
-    
-    
-    <link rel="stylesheet" href="styles/pace.css">
-    <script src="scripts/pace.min.js"></script>
 </head>
 <body id="top">
 
@@ -33,7 +29,8 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -47,9 +44,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php" class="menu-active"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
-                <li><a href="services.php"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
-                <li><a href="projects.php"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
+                <li><a href="#aboutera"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
+                <li><a href="#eraservices"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
+                <li><a href="#eraproducts"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
                 <li><a href="#eraclients"><i class="fa fa fa-users"></i>&nbsp;Our Clients</a></li>
                 <!--                <li><a href="#"><i class="fa fa fa-user"></i>&nbsp;Testimonials</a></li>-->
                 <li><a href="#eracontacts"><i class="fa fa-phone"></i>&nbsp;Contact Us</a></li>
@@ -68,7 +65,7 @@
             <ul>    <!-- SLIDE  -->
                 <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                     <!-- MAIN IMAGE -->
-                    <img src="" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
+                    <img src="images/slidebg1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="left top"
                          data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
@@ -362,7 +359,7 @@
                 <!-- SLIDE  -->
                 <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
                     <!-- MAIN IMAGE -->
-                    <img src="" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top"
+                    <img src="images/darkblurbg.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top"
                          data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
@@ -568,9 +565,7 @@
                         <?php echo substr("This is one of the main services dealt by ERASOFT. We are especially involved in converting your manual business and other type of daily activities into automated system. In this field of
                         service, we are engaged in providing software solution either..", 0, 210) . "..."; ?>
                     </p>
-                   <!-- <a href="#" class="btn btn-local" data-toggle="modal" data-target=".software-services">Read
-                        More</a>-->
-                        <a href="#" class="btn btn-local" data-toggle="modal">Read
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".software-services">Read
                         More</a>
                 </div>
             </div>
@@ -584,7 +579,7 @@
                         <?php echo substr("It is a realized fact that the online presence of an organization has been very mandatory for each type of organization either government or private organization. The type of required web
                         page may differ according to the nature of organization", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-local" data-toggle="modal" data-target="">Read
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".website-services">Read
                         More</a>
                 </div>
             </div>
@@ -597,7 +592,7 @@
                     <p class="text-justify">
                         <?php echo substr("Establishing a high cost computer system is not sufficient enough to enhance the proficiency of an organization. Unmanaged and Improperly managed computer hardware system may not.", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-local" data-toggle="modal" data-target="">Read
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".hardware-services">Read
                         More</a>
                 </div>
             </div>
@@ -610,7 +605,7 @@
                     <p class="text-justify">
                         <?php echo substr("In general term, network is considered as the collection of different computers which can share the resources. The scope and use of network may not be same in different types of organization. But it is believed that establishing a network reduces the cost of operation and increases the efficiency of an organization.", 0, 210) . "..."; ?>
                     </p>
-                    <a href="#" class="btn btn-local" data-toggle="modal" data-target="">Read
+                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".networking-services">Read
                         More</a>
                 </div>
             </div>
@@ -935,7 +930,7 @@
 <!--carousel-->
 
 
-<!--Our Clients
+<!--Our Clients-->
 <div class="section" id="eraclients">
     <div class="container">
         <div class="col-md-12 section-title">
@@ -953,7 +948,7 @@
         </div>
     </div>
 </div>
-Our Clients-->
+<!--Our Clients-->
 
 
 <!--Testimonials-->
@@ -1132,10 +1127,10 @@ Our Clients-->
 
     $('.backtotop').css("display","none");
 	
-//-$('.nav a').on('click', function(){
-    //$(".btn-navbar").click(); //bootstrap 2.x
-    //$(".navbar-toggle").click() //bootstrap 3.x by Richard
-//});
+	$('.nav a').on('click', function(){
+    $(".btn-navbar").click(); //bootstrap 2.x
+    $(".navbar-toggle").click() //bootstrap 3.x by Richard
+});
 
     $("nav ul li a[href^='#']").on('click', function (e) {
         // prevent default anchor click behavior
