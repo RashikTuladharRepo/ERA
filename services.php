@@ -44,7 +44,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.php"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
-                <li><a href="services.php" class="menu-active"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
+                <li class="active"><a href="services.php"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
                 <li><a href="projects.php"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
                 <li><a href="#eraclients"><i class="fa fa fa-users"></i>&nbsp;Our Clients</a></li>
                 <!--                <li><a href="#"><i class="fa fa fa-user"></i>&nbsp;Testimonials</a></li>-->
@@ -79,9 +79,10 @@
   
   <!--Software Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/software.png"/></div>
-        		<div class="col-md-9">
-        			<h3 class="dancingscript">Software Services</h3>
+        <h3 class="dancingscript">Software Services</h3>
+        		<img  src="images/software.png" class="pull-left" />
+        		
+        			
 				<p class="text-justify segeo font18">
 							This is one of the main services dealt by ERASOFT. We are especially involved in converting your manual business and other type of daily activities into automated system. In this field of service, we are engaged in providing software solution either desktop based, client sever based or web based for different organization as per their requirement to automate different types of organizational activities. Our team will carry out all the necessary jobs which are required to build a complete software system only after understanding your system requirement. We follow a universally followed software development cycle to complete the projects. As we have the expertise in almost all of the platform of software development, we are ready and able to work in each of the commonly available software development. We have a professional way of studying your system needs, designing the system as per the need, coding the system, testing the system, debugging the system and implementing the system. We think that developing the perfect software system by the perfect human resource for the perfect performance is our duty.
 					<br><br>
@@ -94,15 +95,16 @@
 						<li>Unlimited data is included in all of our pricing.</li>
 					</ul>
 				</p>
-        		</div>
+        		
         </div>
         
         
           <!--Website Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/website.png"/></div>
-        		<div class="col-md-9">
-        			<h3 class="dancingscript">Website Services</h3>
+            <h3 class="dancingscript">Website Services</h3>
+        		<img  src="images/website.png" class="pull-right" />
+        		
+        			
 				<p class="text-justify segeo font18">
 							It is a realized fact that the online presence of an organization has been very mandatory for each type of organization either government or private organization. The type of required web page may differ according to the nature of organization. ERASOFT is completely dedicated to provide the full fledged web solution under a single umbrella. We have a professional team to work with different platform for web solution, which we think, is our great assets to fulfill the aspirations of our valued clients.
 					<br><br>
@@ -113,7 +115,7 @@
 						<li>We also provide you the service of redesign and re-develop your existing web sites to catch up with the technology and market demand.</li>
 					</ul>
 				</p>
-        		</div>
+        		
         </div>
         
         
@@ -121,15 +123,16 @@
         
         <!--Hardware Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/hardware.png"/></div>
-        		<div class="col-md-9">
-        			<h3 class="dancingscript">Hardware Services</h3>
+        <h3 class="dancingscript">Hardware Services</h3>
+        		<img  src="images/hardware.png" class="pull-left" />
+        		
+        			
 				<p class="text-justify segeo font18">
 							We are committed to supply computer hardware and other peripherals of different renowned brand.
 <br><br>
 Establishing a high cost computer system is not sufficient enough to enhance the proficiency of an organization. Unmanaged and Improperly managed computer hardware system may not produce better outcome. So, we believe that the entire computer system should be always functional with optimized capacity, which requires an experienced and qualified team with strong commitment. We are also engaged in providing full fledged computer hardware maintenance, Annual maintenance services and other types of services by our qualified and certified hardware team. We provide on call visit support serve, on call online support service, and stand by on the spot support service as per your necessity. 
 				</p>
-        		</div>
+        		
         </div>
         
         
@@ -137,24 +140,26 @@ Establishing a high cost computer system is not sufficient enough to enhance the
         
         <!--Networking  Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/networking.png"/></div>
-        		<div class="col-md-9">
-        			<h3 class="dancingscript">Networking Services</h3>
+        		<h3 class="dancingscript">Networking Services</h3>
+                <img  src="images/networking.png" class="pull-right" />
+        		
+        			
 				<p class="text-justify segeo font18">
 					In general term, network is considered as the collection of different computers which can share the resources. The scope and use of network may not be same in different types of organization. But it is believed that establishing a network reduces the cost of operation and increases the efficiency of an organization. It is the reality that only the well managed and properly configured network system can give efficiency. Otherwise it may be just an investment without the result. It is also supposed that the use of network is only to share the files and internet service provided by an ISP.
 <br><br>
 We are also involved in planning, designing, establishing managing and monitoring the computer network of different size on different platform. Our team of certified MCSE, RHCE and CCNA is dedicated to establish a complex network with diverse span of the requirement of the organization without any compromise of security and performance.
 				</p>
-        		</div>
+        		
         </div>
         
         
         
         <!--Training Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/training.png"/></div>
-        		<div class="col-md-9">
-        			<h3 class="dancingscript">Training Services</h3>
+        <h3 class="dancingscript">Training Services</h3>
+        		<img  src="images/training.png" class="pull-left" />
+        		
+        			
 				<p class="text-justify segeo font18">
 					Training is yet another service of ERASOFT. We are involved in Preparing and conduction training program on various IT related faculty to develop the IT skill of individual. We also offer on-demand in-house training for the staff of different organization to enhance the IT skill of the for efficiency of the organization.<br><br>
 
@@ -164,19 +169,19 @@ We are also involved in planning, designing, establishing managing and monitorin
 						<li>School Management</li>
 					</ul>
 				</p>
-        		</div>
+        	
         </div>
         
         
                 <!--IT Consultancy Services  Services-->      
         <div class="row col-md-12 contents-descriptions">
-        		<div class="col-md-3"><img  src="images/consultancy.png"/></div>
-        		<div class="col-md-9">
+        		<img  src="images/consultancy.png" class="pull-right" />
+        		
         			<h3 class="dancingscript">IT Consultancy Services</h3>
 				<p class="text-justify segeo font18">
 					ERASOFT also offer various type of IT consultancy services on diverse filed of IT. We provide you the consultancy service of on System study, System Design, System Implementation, System Monitoring and System Upgrading.  
 				</p>
-        		</div>
+        		
         </div>
         
     </div>

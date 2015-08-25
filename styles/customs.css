@@ -27,22 +27,32 @@ body
     min-height: 70px;
     margin-bottom: 0px;
     border: 1px solid transparent;
-    background: #1D8405;
+    /*background: #1D8405;*//*
     -webkit-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
-    box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);*/
 }
 
 
 .navbar-brand
 {
-    color:#FFF !important;
+    color:#1D8405; !important;
     float: left;
     height: 68px;
     padding: 35px;
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     width: auto;
+}
+
+.navbar-brand p
+{
+    color:#9C3324;
+}
+
+.navbar-brand small
+{
+    color:#1D8405;
 }
 
 
@@ -60,22 +70,29 @@ body
     }
 }
 
-
 .navbar-default .navbar-nav a
 {
-    color: #FFF !important;
+    color:#1D8405 !important;
     -webkit-transition: background-color 1s;
     -moz-transition: background-color 1s;
     -ms-transition: background-color 1s;
     -o-transition: background-color 1s;
     transition: background-color 1s;
+    
 }
 
-.navbar-default .navbar-nav a:hover,.menu-active
+.navbar-default .navbar-nav li.active a{
+    color:#fff !important;
+    background-color: #923E09 !important;
+} 
+
+.navbar-default .navbar-nav a:hover
 {
     color: #FFF !important;
     background-color:#923E09 !important;
 }
+
+
 
 .navbar-brand p {
     margin-top: -20px;
@@ -450,47 +467,3 @@ address a:hover
 	color:#1D8405;
 }
 
-/*tabs*/
-
-.tabs
-{
-	margin:0 auto;
-	height: 60px;
-}
-
-.tabs ul li a
-{
-	background-color:  !important;
-	color:#FFF;
-}
-
-.tabs ul li a:hover
-{
-	background-color:#923E09 !important;
-	color:#FFF;
-}
-
-
-.nav-tabs > li > a
-{
-	border: none;
-	height: 60px;
-	line-height: 50px;
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
-{
-	background-color:#923E09 !important;
-	color:#FFF;
-	border-radius:0px !important;
-	border-color: transparent !important;
-	border:none;
-	height: 60px;
-	line-height: 45px;
-	width: 100%;
-}
-
-.nav-tabs > li
-{
-	margin-bottom:0px;
-}

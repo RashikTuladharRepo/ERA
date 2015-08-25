@@ -47,7 +47,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.php" class="menu-active"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
+                <li class="active"><a href="index.php"><i class="fa fa-home"></i>&nbsp;About Erasoft</a></li>
                 <li><a href="services.php"><i class="fa fa-thumbs-up"></i>&nbsp;Our Services</a></li>
                 <li><a href="projects.php"><i class="fa fa-tachometer"></i>&nbsp;Our Products</a></li>
                 <li><a href="#eraclients"><i class="fa fa fa-users"></i>&nbsp;Our Clients</a></li>
